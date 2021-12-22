@@ -1,4 +1,7 @@
 # OpenMRS on Azure
+
+<img src="https://camo.githubusercontent.com/af224fc4a6839acfdcb4f4021290b2c5825ca0fa518ae6bcaab8636ad8a30bed/68747470733a2f2f74616c6b2e6f70656e6d72732e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f32582f662f663165633537396230333938636230346338306135346335366461323139623234343066653234392e6a7067" width=50% height=50%>
+
 This repository contains automation to deploy [OpenMRS](https://openmrs.org/), (Open Medical Records System) on Azure. Great work being done on this project on the [OpenMRS Repo](https://github.com/openmrs/openmrs-core).
 
 ## All-in-one:
