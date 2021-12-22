@@ -16,7 +16,7 @@ in a separate but linked Docker container, which are created using Docker Compos
 
 This deployment will listen on HTTP/8080 by default and has a public IP resources associated with it, if this is for an internal deployment please [dissociate the public IP address](https://docs.microsoft.com/en-us/azure/virtual-network/remove-public-ip-address-vm) from the VM.
 
-When the deployment is complete you can access the system by going to ``http://PublicIPAddress:8080/openmrs``. The tomcat configuration in the official openmrs container (currently) points to the root webapp and needs the ``/openmrs`` path appended.
+When the deployment is complete you can access the system by going to ``http://PublicIPAddress:8080/openmrs`` or ``http://AzureDNSname:8080/openmrs``. The tomcat configuration in the official openmrs container (currently) points to the root webapp and needs the ``/openmrs`` path appended.
 
 The ***default credentials*** for this deployment are in the [docker-compose.yml file](all-in-one/docker-compose.yml) and by default the login for OpenMRS is ``admin/Admin123``. You can change these credentials using the steps below.
 
