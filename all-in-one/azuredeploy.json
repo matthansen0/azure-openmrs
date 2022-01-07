@@ -270,12 +270,12 @@
       }
     },
         {
-            "name": "OpenMRS/docker",
+            "name": "OpenMRS/application",
             "type": "Microsoft.Compute/virtualMachines/extensions",
             "apiVersion": "2019-07-01",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "docker compose"
+                "displayName": "install openmrs"
             },
             "dependsOn": [
                 "[parameters('vmName')]"
