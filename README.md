@@ -28,7 +28,7 @@ The ***default credentials*** for this deployment are in the [docker-compose.yml
 OpenMRS [supports FHIR](https://talk.openmrs.org/t/fhir-module-and-export-import-based-testing/2063/3)
 Here are steps to quickly access FHIR data in newly created OpenMRS instance
 1. Login with admin/Admin123 to the Registration Desk
-3. Add a sample patient (THIS IS REQUIRTED, NONE of the fhir endpoints worked for me without it)
+3. Add a sample patient (THIS IS REQUIRED, NONE of the fhir endpoints worked for me without it)
 4. Metadata endpoint http://<yourip>:8080/openmrs/ws/fhir2/R4/metadata
 5. Patient endpoint: Bundle: http://<yourip>:8080/openmrs/ws/fhir2/R4/Patient/
 
