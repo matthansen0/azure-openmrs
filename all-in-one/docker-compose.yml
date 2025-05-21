@@ -39,6 +39,7 @@ services:
       - openmrs-referenceapplication-data:/usr/local/tomcat/.OpenMRS/
       - /usr/local/tomcat/.OpenMRS/modules/ # do not store modules in data
       - /usr/local/tomcat/.OpenMRS/owa/ # do not store owa in data
+    command: ["bash", "-c", "if [ -f /usr/local/tomcat/webapps/openmrs.war ]; then mv /usr/local/tomcat/webapps/openmrs.war /usr/local/tomcat/webapps/ROOT.war; fi && catalina.sh run"]
  
 volumes:
    openmrs-referenceapplication-mysql-data:
